@@ -1,0 +1,29 @@
+@import '../../foundations.scss';
+
+@keyframes messagingOpen {
+  0% {
+    transform: translateY(-100%)
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.messaging {
+  animation: messagingOpen 300ms ease-out 0s 1 normal backwards;
+  position: absolute;
+  right: 12rem;
+  width: 36rem;
+  max-height: 42rem;
+  overflow: hidden;
+  z-index: 2;
+  border-radius: 0 0 3rem 3rem;
+  background-color: $bl-sys-color-neutral-low;
+  border-top: none;
+  transition: transform ease-in 300ms;
+  @include drop-shadow();
+
+  &.closing {
+    transform: translateY(-100%);
+  }
+}

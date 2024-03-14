@@ -1,0 +1,409 @@
+$bl-prim-color-purple-100: #FAF3FB;
+$bl-prim-color-purple-200: #F3E3F6;
+$bl-prim-color-purple-300: #E7C8ED;
+$bl-prim-color-purple-400: #D092DC;
+$bl-prim-color-purple-500: #B450C7;
+$bl-prim-color-purple-600: #722880;
+$bl-prim-color-purple-700: #4E1C59;
+$bl-prim-color-purple-800: #2C0F32;
+$bl-prim-color-purple-900: #1B091F;
+
+$bl-prim-color-purple-overlay-10: rgba(180, 80, 199, 0.1);
+$bl-prim-color-purple-overlay-20: rgba(180, 80, 199, 0.2);
+$bl-prim-color-purple-overlay-30: rgba(180, 80, 199, 0.3);
+$bl-prim-color-purple-overlay-40: rgba(180, 80, 199, 0.4);
+$bl-prim-color-purple-overlay-50: rgba(180, 80, 199, 0.5);
+$bl-prim-color-purple-overlay-60: rgba(180, 80, 199, 0.6);
+$bl-prim-color-purple-overlay-70: rgba(180, 80, 199, 0.7);
+$bl-prim-color-purple-overlay-80: rgba(180, 80, 199, 0.8);
+$bl-prim-color-purple-overlay-90: rgba(180, 80, 199, 0.9);
+
+$bl-prim-color-blue-100: #EEF7FB;
+$bl-prim-color-blue-200: #DDEFF7;
+$bl-prim-color-blue-300: #BCE0EF;
+$bl-prim-color-blue-400: #75C0DF;
+$bl-prim-color-blue-500: #2C96C3;
+$bl-prim-color-blue-600: #1A5974;
+$bl-prim-color-blue-700: #113C4E;
+$bl-prim-color-blue-800: #0A232D;
+$bl-prim-color-blue-900: #051318;
+
+$bl-prim-color-blue-overlay-10: rgba(44, 150, 195, 0.1);
+$bl-prim-color-blue-overlay-20: rgba(44, 150, 195, 0.2);
+$bl-prim-color-blue-overlay-30: rgba(44, 150, 195, 0.3);
+$bl-prim-color-blue-overlay-40: rgba(44, 150, 195, 0.4);
+$bl-prim-color-blue-overlay-50: rgba(44, 150, 195, 0.5);
+$bl-prim-color-blue-overlay-60: rgba(44, 150, 195, 0.6);
+$bl-prim-color-blue-overlay-70: rgba(44, 150, 195, 0.7);
+$bl-prim-color-blue-overlay-80: rgba(44, 150, 195, 0.8);
+$bl-prim-color-blue-overlay-90: rgba(44, 150, 195, 0.9);
+
+$bl-prim-color-green-100: #EFFAF6;
+$bl-prim-color-green-200: #DBF4EB;
+$bl-prim-color-green-300: #B3E9D4;
+$bl-prim-color-green-400: #67D4AA;
+$bl-prim-color-green-500: #2EA376;
+$bl-prim-color-green-600: #195B42;
+$bl-prim-color-green-700: #134331;
+$bl-prim-color-green-800: #0B271C;
+$bl-prim-color-green-900: #05130E;
+
+$bl-prim-color-green-overlay-10: rgba(103, 212, 170, 0.1);
+$bl-prim-color-green-overlay-20: rgba(103, 212, 170, 0.2);
+$bl-prim-color-green-overlay-30: rgba(103, 212, 170, 0.3);
+$bl-prim-color-green-overlay-40: rgba(103, 212, 170, 0.4);
+$bl-prim-color-green-overlay-50: rgba(103, 212, 170, 0.5);
+$bl-prim-color-green-overlay-60: rgba(103, 212, 170, 0.6);
+$bl-prim-color-green-overlay-70: rgba(103, 212, 170, 0.7);
+$bl-prim-color-green-overlay-80: rgba(103, 212, 170, 0.8);
+$bl-prim-color-green-overlay-90: rgba(103, 212, 170, 0.9);
+
+$bl-prim-color-orange-100: #FBF3EE;
+$bl-prim-color-orange-200: #F8E9DD;
+$bl-prim-color-orange-300: #F0D0B7;
+$bl-prim-color-orange-400: #E1A26F;
+$bl-prim-color-orange-500: #CC6128;
+$bl-prim-color-orange-600: #7F3119;
+$bl-prim-color-orange-700: #5D2012;
+$bl-prim-color-orange-800: #37130A;
+$bl-prim-color-orange-900: #1D0A06;
+
+$bl-prim-color-orange-overlay-10: rgba(204, 97, 40, 0.1);
+$bl-prim-color-orange-overlay-20: rgba(204, 97, 40, 0.2);
+$bl-prim-color-orange-overlay-30: rgba(204, 97, 40, 0.3);
+$bl-prim-color-orange-overlay-40: rgba(204, 97, 40, 0.4);
+$bl-prim-color-orange-overlay-50: rgba(204, 97, 40, 0.5);
+$bl-prim-color-orange-overlay-60: rgba(204, 97, 40, 0.6);
+$bl-prim-color-orange-overlay-70: rgba(204, 97, 40, 0.7);
+$bl-prim-color-orange-overlay-80: rgba(204, 97, 40, 0.8);
+$bl-prim-color-orange-overlay-90: rgba(204, 97, 40, 0.9);
+
+$bl-prim-color-red-100: #FCF1F1;
+$bl-prim-color-red-200: #FAE4E4;
+$bl-prim-color-red-300: #F5CACA;
+$bl-prim-color-red-400: #EB9292;
+$bl-prim-color-red-500: #E05151;
+$bl-prim-color-red-600: #A41D1D;
+$bl-prim-color-red-700: #751414;
+$bl-prim-color-red-800: #450C0C;
+$bl-prim-color-red-900: #270606;
+
+$bl-prim-color-red-overlay-10: rgba(224, 81, 81, 0.1);
+$bl-prim-color-red-overlay-20: rgba(224, 81, 81, 0.2);
+$bl-prim-color-red-overlay-30: rgba(224, 81, 81, 0.3);
+$bl-prim-color-red-overlay-40: rgba(224, 81, 81, 0.4);
+$bl-prim-color-red-overlay-50: rgba(224, 81, 81, 0.5);
+$bl-prim-color-red-overlay-60: rgba(224, 81, 81, 0.6);
+$bl-prim-color-red-overlay-70: rgba(224, 81, 81, 0.7);
+$bl-prim-color-red-overlay-80: rgba(224, 81, 81, 0.8);
+$bl-prim-color-red-overlay-90: rgba(224, 81, 81, 0.9);
+
+$bl-prim-color-gray-100: #F7F7F7;
+$bl-prim-color-gray-200: #EDEDED;
+$bl-prim-color-gray-300: #D9D9D9;
+$bl-prim-color-gray-400: #B0B0B0;
+$bl-prim-color-gray-500: #7C7C7C;
+$bl-prim-color-gray-600: #494949;
+$bl-prim-color-gray-700: #333333;
+$bl-prim-color-gray-800: #1F1F1F;
+$bl-prim-color-gray-900: #121212;
+
+$bl-prim-color-gray-overlay-10: rgba(18, 18, 18, 0.1);
+$bl-prim-color-gray-overlay-20: rgba(18, 18, 18, 0.2);
+$bl-prim-color-gray-overlay-30: rgba(18, 18, 18, 0.3);
+$bl-prim-color-gray-overlay-40: rgba(18, 18, 18, 0.4);
+$bl-prim-color-gray-overlay-50: rgba(18, 18, 18, 0.5);
+$bl-prim-color-gray-overlay-60: rgba(18, 18, 18, 0.6);
+$bl-prim-color-gray-overlay-70: rgba(18, 18, 18, 0.7);
+$bl-prim-color-gray-overlay-80: rgba(18, 18, 18, 0.8);
+$bl-prim-color-gray-overlay-90: rgba(18, 18, 18, 0.9);
+
+$bl-sys-color-primary-lowest: $bl-prim-color-purple-100;
+$bl-sys-color-primary-lower: $bl-prim-color-purple-200;
+$bl-sys-color-primary-low: $bl-prim-color-purple-300;
+$bl-sys-color-primary-low-mid: $bl-prim-color-purple-400;
+$bl-sys-color-primary-mid: $bl-prim-color-purple-500;
+$bl-sys-color-primary-high-mid: $bl-prim-color-purple-600;
+$bl-sys-color-primary-high: $bl-prim-color-purple-700;
+$bl-sys-color-primary-higher: $bl-prim-color-purple-800;
+$bl-sys-color-primary-highest: $bl-prim-color-purple-900;
+
+$bl-sys-color-primary-overlay-10: $bl-prim-color-purple-overlay-10;
+$bl-sys-color-primary-overlay-20: $bl-prim-color-purple-overlay-20;
+$bl-sys-color-primary-overlay-30: $bl-prim-color-purple-overlay-30;
+$bl-sys-color-primary-overlay-40: $bl-prim-color-purple-overlay-40;
+$bl-sys-color-primary-overlay-50: $bl-prim-color-purple-overlay-50;
+$bl-sys-color-primary-overlay-60: $bl-prim-color-purple-overlay-60;
+$bl-sys-color-primary-overlay-70: $bl-prim-color-purple-overlay-70;
+$bl-sys-color-primary-overlay-80: $bl-prim-color-purple-overlay-80;
+$bl-sys-color-primary-overlay-90: $bl-prim-color-purple-overlay-90;
+
+$bl-sys-color-secondary-lowest: $bl-prim-color-blue-100;
+$bl-sys-color-secondary-lower: $bl-prim-color-blue-200;
+$bl-sys-color-secondary-low: $bl-prim-color-blue-300;
+$bl-sys-color-secondary-low-mid: $bl-prim-color-blue-400;
+$bl-sys-color-secondary-mid: $bl-prim-color-blue-500;
+$bl-sys-color-secondary-high-mid: $bl-prim-color-blue-600;
+$bl-sys-color-secondary-high: $bl-prim-color-blue-700;
+$bl-sys-color-secondary-higher: $bl-prim-color-blue-800;
+$bl-sys-color-secondary-highest: $bl-prim-color-blue-900;
+
+$bl-sys-color-secondary-overlay-10: $bl-prim-color-blue-overlay-10;
+$bl-sys-color-secondary-overlay-20: $bl-prim-color-blue-overlay-20;
+$bl-sys-color-secondary-overlay-30: $bl-prim-color-blue-overlay-30;
+$bl-sys-color-secondary-overlay-40: $bl-prim-color-blue-overlay-40;
+$bl-sys-color-secondary-overlay-50: $bl-prim-color-blue-overlay-50;
+$bl-sys-color-secondary-overlay-60: $bl-prim-color-blue-overlay-60;
+$bl-sys-color-secondary-overlay-70: $bl-prim-color-blue-overlay-70;
+$bl-sys-color-secondary-overlay-80: $bl-prim-color-blue-overlay-80;
+$bl-sys-color-secondary-overlay-90: $bl-prim-color-blue-overlay-90;
+
+$bl-sys-color-info-lowest: $bl-prim-color-blue-100;
+$bl-sys-color-info-lower: $bl-prim-color-blue-200;
+$bl-sys-color-info-low: $bl-prim-color-blue-300;
+$bl-sys-color-info-low-mid: $bl-prim-color-blue-400;
+$bl-sys-color-info-mid: $bl-prim-color-blue-500;
+$bl-sys-color-info-high-mid: $bl-prim-color-blue-600;
+$bl-sys-color-info-high: $bl-prim-color-blue-700;
+$bl-sys-color-info-higher: $bl-prim-color-blue-800;
+$bl-sys-color-info-highest: $bl-prim-color-blue-900;
+
+$bl-sys-color-info-overlay-10: $bl-prim-color-blue-overlay-10;
+$bl-sys-color-info-overlay-20: $bl-prim-color-blue-overlay-20;
+$bl-sys-color-info-overlay-30: $bl-prim-color-blue-overlay-30;
+$bl-sys-color-info-overlay-40: $bl-prim-color-blue-overlay-40;
+$bl-sys-color-info-overlay-50: $bl-prim-color-blue-overlay-50;
+$bl-sys-color-info-overlay-60: $bl-prim-color-blue-overlay-60;
+$bl-sys-color-info-overlay-70: $bl-prim-color-blue-overlay-70;
+$bl-sys-color-info-overlay-80: $bl-prim-color-blue-overlay-80;
+$bl-sys-color-info-overlay-90: $bl-prim-color-blue-overlay-90;
+
+$bl-sys-color-success-lowest: $bl-prim-color-green-100;
+$bl-sys-color-success-lower: $bl-prim-color-green-200;
+$bl-sys-color-success-low: $bl-prim-color-green-300;
+$bl-sys-color-success-low-mid: $bl-prim-color-green-400;
+$bl-sys-color-success-mid: $bl-prim-color-green-500;
+$bl-sys-color-success-high-mid: $bl-prim-color-green-600;
+$bl-sys-color-success-high: $bl-prim-color-green-700;
+$bl-sys-color-success-higher: $bl-prim-color-green-800;
+$bl-sys-color-success-highest: $bl-prim-color-green-900;
+
+$bl-sys-color-success-overlay-10: $bl-prim-color-green-overlay-10;
+$bl-sys-color-success-overlay-20: $bl-prim-color-green-overlay-20;
+$bl-sys-color-success-overlay-30: $bl-prim-color-green-overlay-30;
+$bl-sys-color-success-overlay-40: $bl-prim-color-green-overlay-40;
+$bl-sys-color-success-overlay-50: $bl-prim-color-green-overlay-50;
+$bl-sys-color-success-overlay-60: $bl-prim-color-green-overlay-60;
+$bl-sys-color-success-overlay-70: $bl-prim-color-green-overlay-70;
+$bl-sys-color-success-overlay-80: $bl-prim-color-green-overlay-80;
+$bl-sys-color-success-overlay-90: $bl-prim-color-green-overlay-90;
+
+$bl-sys-color-warning-lowest: $bl-prim-color-orange-100;
+$bl-sys-color-warning-lower: $bl-prim-color-orange-200;
+$bl-sys-color-warning-low: $bl-prim-color-orange-300;
+$bl-sys-color-warning-low-mid: $bl-prim-color-orange-400;
+$bl-sys-color-warning-mid: $bl-prim-color-orange-500;
+$bl-sys-color-warning-high-mid: $bl-prim-color-orange-600;
+$bl-sys-color-warning-high: $bl-prim-color-orange-700;
+$bl-sys-color-warning-higher: $bl-prim-color-orange-800;
+$bl-sys-color-warning-highest: $bl-prim-color-orange-900;
+
+$bl-sys-color-warning-overlay-10: $bl-prim-color-orange-overlay-10;
+$bl-sys-color-warning-overlay-20: $bl-prim-color-orange-overlay-20;
+$bl-sys-color-warning-overlay-30: $bl-prim-color-orange-overlay-30;
+$bl-sys-color-warning-overlay-40: $bl-prim-color-orange-overlay-40;
+$bl-sys-color-warning-overlay-50: $bl-prim-color-orange-overlay-50;
+$bl-sys-color-warning-overlay-60: $bl-prim-color-orange-overlay-60;
+$bl-sys-color-warning-overlay-70: $bl-prim-color-orange-overlay-70;
+$bl-sys-color-warning-overlay-80: $bl-prim-color-orange-overlay-80;
+$bl-sys-color-warning-overlay-90: $bl-prim-color-orange-overlay-90;
+
+$bl-sys-color-critical-lowest: $bl-prim-color-red-100;
+$bl-sys-color-critical-lower: $bl-prim-color-red-200;
+$bl-sys-color-critical-low: $bl-prim-color-red-300;
+$bl-sys-color-critical-low-mid: $bl-prim-color-red-400;
+$bl-sys-color-critical-mid: $bl-prim-color-red-500;
+$bl-sys-color-critical-high-mid: $bl-prim-color-red-600;
+$bl-sys-color-critical-high: $bl-prim-color-red-700;
+$bl-sys-color-critical-higher: $bl-prim-color-red-800;
+$bl-sys-color-critical-highest: $bl-prim-color-red-900;
+
+$bl-sys-color-critical-overlay-10: $bl-prim-color-red-overlay-10;
+$bl-sys-color-critical-overlay-20: $bl-prim-color-red-overlay-20;
+$bl-sys-color-critical-overlay-30: $bl-prim-color-red-overlay-30;
+$bl-sys-color-critical-overlay-40: $bl-prim-color-red-overlay-40;
+$bl-sys-color-critical-overlay-50: $bl-prim-color-red-overlay-50;
+$bl-sys-color-critical-overlay-60: $bl-prim-color-red-overlay-60;
+$bl-sys-color-critical-overlay-70: $bl-prim-color-red-overlay-70;
+$bl-sys-color-critical-overlay-80: $bl-prim-color-red-overlay-80;
+$bl-sys-color-critical-overlay-90: $bl-prim-color-red-overlay-90;
+
+$bl-sys-color-neutral-lowest: $bl-prim-color-gray-100;
+$bl-sys-color-neutral-lower: $bl-prim-color-gray-200;
+$bl-sys-color-neutral-low: $bl-prim-color-gray-300;
+$bl-sys-color-neutral-low-mid: $bl-prim-color-gray-400;
+$bl-sys-color-neutral-mid: $bl-prim-color-gray-500;
+$bl-sys-color-neutral-high-mid: $bl-prim-color-gray-600;
+$bl-sys-color-neutral-high: $bl-prim-color-gray-700;
+$bl-sys-color-neutral-higher: $bl-prim-color-gray-800;
+$bl-sys-color-neutral-highest: $bl-prim-color-gray-900;
+
+$bl-sys-color-neutral-overlay-10: $bl-prim-color-gray-overlay-10;
+$bl-sys-color-neutral-overlay-20: $bl-prim-color-gray-overlay-20;
+$bl-sys-color-neutral-overlay-30: $bl-prim-color-gray-overlay-30;
+$bl-sys-color-neutral-overlay-40: $bl-prim-color-gray-overlay-40;
+$bl-sys-color-neutral-overlay-50: $bl-prim-color-gray-overlay-50;
+$bl-sys-color-neutral-overlay-60: $bl-prim-color-gray-overlay-60;
+$bl-sys-color-neutral-overlay-70: $bl-prim-color-gray-overlay-70;
+$bl-sys-color-neutral-overlay-80: $bl-prim-color-gray-overlay-80;
+$bl-sys-color-neutral-overlay-90: $bl-prim-color-gray-overlay-90;
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+$bl-prim-font-family-cinzel-decorative: 'Cinzel Decorative';
+$bl-prim-font-family-playfair: 'Playfair Display';
+$bl-prim-font-family-dm-sans: 'DM Sans';
+
+$bl-sys-font-family-display: $bl-prim-font-family-cinzel-decorative, sans-serif;
+$bl-sys-font-family-headlines: $bl-prim-font-family-playfair, sans-serif;
+$bl-sys-font-family-default: $bl-prim-font-family-dm-sans, sans-serif;
+
+@mixin display-large() {
+  font-family: $bl-sys-font-family-display;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 5rem;
+}
+
+@mixin display-medium() {
+  font-family: $bl-sys-font-family-display;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+@mixin display-small() {
+  font-family: $bl-sys-font-family-display;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+@mixin headline-large() {
+  font-family: $bl-sys-font-family-headlines;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+@mixin headline-medium() {
+  font-family: $bl-sys-font-family-headlines;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+@mixin headline-small() {
+  font-family: $bl-sys-font-family-headlines;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+@mixin title-large() {
+  font-family: $bl-sys-font-family-default;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+@mixin title-medium() {
+  font-family: $bl-sys-font-family-default;
+  font-weight: 700;
+  font-size: 1.5625rem;
+  line-height: 2.5rem;
+}
+
+@mixin title-small() {
+  font-family: $bl-sys-font-family-default;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+}
+
+@mixin label-large() {
+  font-family: $bl-sys-font-family-default;
+  font-weight: 500;
+  font-size: 1.5625rem;
+  line-height: 1.5rem;
+}
+
+@mixin label-medium() {
+  font-family: $bl-sys-font-family-default;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+@mixin label-small() {
+  font-family: $bl-sys-font-family-default;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+@mixin body-large() {
+  font-family: $bl-sys-font-family-default;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+@mixin body-medium() {
+  font-family: $bl-sys-font-family-default;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+@mixin body-medium-bold() {
+  font-family: $bl-sys-font-family-default;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+@mixin body-small() {
+  font-family: $bl-sys-font-family-default;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  line-height: 1.5rem;
+}
+
+@mixin overline() {
+  font-family: $bl-sys-font-family-default;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+
+@mixin caption() {
+  font-family: $bl-sys-font-family-default;
+  font-weight: 300;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+}
+
+@mixin quiet() {
+  font-family: $bl-sys-font-family-default;
+  font-weight: 400;
+  font-size: 0.625rem;
+  line-height: 1rem;
+}
+
+@mixin drop-shadow() {
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+}

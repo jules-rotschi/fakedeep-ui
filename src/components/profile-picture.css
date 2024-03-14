@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+.profile-picture-container {
+  border-radius: 100%;
+  overflow: hidden;
+  transition: transform ease-in-out 100ms;
+}
+
+.profile-picture-container--upscale:hover {
+  transform: scale(1.2);
+}
+
+.profile-picture-container--upscale:active {
+  transform: scale(0.9);
+}
+
+.profile-picture-container--120 {
+  height: 7.5rem;
+  width: 7.5rem;
+}
+.profile-picture-container--120 .profile-picture {
+  height: 7.5rem;
+  width: 7.5rem;
+}
+
+.profile-picture-container--64 {
+  height: 4rem;
+  width: 4rem;
+}
+.profile-picture-container--64 .profile-picture {
+  height: 4rem;
+  width: 4rem;
+}
+
+.profile-picture-container--56 {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+.profile-picture-container--56 .profile-picture {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.profile-picture-container--48 {
+  height: 3rem;
+  width: 3rem;
+}
+.profile-picture-container--48 .profile-picture {
+  height: 3rem;
+  width: 3rem;
+}
+
+.profile-picture-container--40 {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.profile-picture-container--40 .profile-picture {
+  height: 2.5rem;
+  width: 2.5rem;
+}/*# sourceMappingURL=profile-picture.css.map */

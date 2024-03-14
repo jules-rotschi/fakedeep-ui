@@ -1,0 +1,53 @@
+@import '../foundations.scss';
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 10rem;
+  min-height: 5rem;
+  @include drop-shadow();
+  z-index: 3;
+}
+
+.navbar__identity {
+  width: 14rem;
+  color: $bl-sys-color-primary-high;
+}
+
+.navbar__menu {
+  display: flex;
+  gap: 5rem;
+  color: $bl-sys-color-neutral-higher;
+}
+
+.navbar__menu__item {  
+  a {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  &:hover {
+    color: $bl-sys-color-primary-high
+  }
+}
+
+.navbar__buttons {
+  width: 14rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.new-message-indicator {
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+  background-color: $bl-sys-color-critical-mid;
+  position: absolute;
+  transform: translate(0.5rem, -0.5rem);
+}

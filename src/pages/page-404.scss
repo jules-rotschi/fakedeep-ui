@@ -1,0 +1,11 @@
+@import '../foundations.scss';
+
+main:has(.error-message) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-message {
+  color: $bl-sys-color-neutral-higher;
+}

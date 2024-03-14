@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 10rem;
+  min-height: 5rem;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+  z-index: 3;
+}
+
+.navbar__identity {
+  width: 14rem;
+  color: #4E1C59;
+}
+
+.navbar__menu {
+  display: flex;
+  gap: 5rem;
+  color: #1F1F1F;
+}
+
+.navbar__menu__item a {
+  padding: 0.5rem;
+  text-align: center;
+}
+.navbar__menu__item:hover {
+  color: #4E1C59;
+}
+
+.navbar__buttons {
+  width: 14rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.new-message-indicator {
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+  background-color: #E05151;
+  position: absolute;
+  transform: translate(0.5rem, -0.5rem);
+}/*# sourceMappingURL=navbar.css.map */

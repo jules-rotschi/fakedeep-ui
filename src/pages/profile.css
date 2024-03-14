@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+.account-header {
+  width: 100vw;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.account-header .profile-picture-container {
+  margin-bottom: 0.5rem;
+}
+.account-header button {
+  margin-top: 1.5rem;
+}
+.account-header .username {
+  color: #121212;
+}
+
+.account-content {
+  margin-top: 4rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.account-content article {
+  width: 31rem;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.carousel img {
+  width: 31rem;
+  transition: transform ease-in-out 300ms;
+}
+.carousel .icon-button {
+  position: absolute;
+  top: calc(50% - 1.5rem);
+  color: #F7F7F7;
+  background-color: rgba(18, 18, 18, 0.2);
+  opacity: 0;
+  transition: all 100ms;
+}
+.carousel .icon-button:hover {
+  background-color: rgba(18, 18, 18, 0.3);
+}
+.carousel .icon-button:active {
+  background-color: rgba(18, 18, 18, 0.4);
+}
+.carousel .icon-button.previous {
+  left: 0.5rem;
+}
+.carousel .icon-button.next {
+  right: 0.5rem;
+}
+.carousel:hover .icon-button {
+  opacity: 1;
+}
+.carousel.picture0 img {
+  transform: translateX(0);
+}
+.carousel.picture1 img {
+  transform: translateX(-100%);
+}
+.carousel.picture2 img {
+  transform: translateX(-200%);
+}
+.carousel.picture3 img {
+  transform: translateX(-300%);
+}
+
+.more-about {
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: #FAF3FB;
+  border: 1px solid #E7C8ED;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about-title {
+  color: #121212;
+}
+
+.about-text {
+  color: #333333;
+}/*# sourceMappingURL=profile.css.map */

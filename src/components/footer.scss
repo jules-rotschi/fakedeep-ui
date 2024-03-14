@@ -1,0 +1,30 @@
+@import '../foundations.scss';
+
+footer {
+  min-height: 13.5rem;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $bl-sys-color-secondary-high;
+  color: $bl-sys-color-primary-lower;
+  margin-top: 6rem;
+}
+
+.footer-content {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.footer-content__right {
+  padding-left: 1.5rem;
+  border-left: 3px solid $bl-sys-color-primary-lower;
+  padding-block: 0.75rem;
+}
+
+.footer-content__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

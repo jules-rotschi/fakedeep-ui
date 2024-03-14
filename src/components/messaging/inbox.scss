@@ -1,0 +1,27 @@
+@import '../../foundations.scss';
+
+.inbox__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 3rem 1.5rem;
+  min-height: 6rem;
+  background-color: #fff;
+  border-bottom: 1px solid $bl-sys-color-neutral-high;
+  color: $bl-sys-color-neutral-higher;
+}
+
+.inbox__title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.inbox__content {
+  max-height: 36rem;
+  overflow: scroll;
+}
+
+p.error-message {
+  margin-block: 1.5rem;
+}

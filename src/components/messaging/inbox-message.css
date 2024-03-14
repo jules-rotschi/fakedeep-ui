@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+.profile-picture-click-handler {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.inbox-message {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 1.5rem 18px 1rem;
+  border-bottom: 1px solid #7C7C7C;
+}
+.inbox-message:hover {
+  cursor: pointer;
+  background-color: #F7F7F7;
+}
+.inbox-message:active {
+  background-color: #EDEDED;
+}
+.inbox-message:last-child {
+  border-bottom: none;
+}
+
+.inbox-message--new {
+  background-color: #EEF7FB;
+}
+.inbox-message--new:hover {
+  background-color: #DDEFF7;
+}
+.inbox-message--new .inbox-message__message .inbox-message__message-content {
+  color: #121212;
+  font-weight: 700;
+}
+
+.inbox-message__infos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.inbox-message__text {
+  padding-bottom: 0.25rem;
+}
+
+.inbox-message__user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.inbox-message__user-name {
+  margin-bottom: -0.5rem;
+  color: #121212;
+}
+
+.inbox-message__user-active {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 100%;
+  background-color: #2EA376;
+  position: relative;
+  top: 4px;
+}
+
+.inbox-message__message {
+  display: flex;
+  gap: 0.5rem;
+  color: #494949;
+}
+
+.inbox-message__message-time {
+  color: #7C7C7C;
+}/*# sourceMappingURL=inbox-message.css.map */

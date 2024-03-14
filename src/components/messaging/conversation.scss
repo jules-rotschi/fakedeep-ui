@@ -1,0 +1,124 @@
+@import '../../foundations.scss';
+
+.conversation__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1.5rem;
+  min-height: 6rem;
+  background-color: $bl-sys-color-neutral-lowest;
+  border-bottom: 1px solid $bl-sys-color-neutral-high;
+  color: $bl-sys-color-neutral-higher;
+}
+
+.user {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  padding-right: 3rem;
+}
+
+.user-status {
+  min-height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-name {
+  margin-bottom: -4px;
+  color: $bl-sys-color-neutral-highest;
+}
+
+.user-active {
+  color: $bl-sys-color-success-high-mid;
+}
+
+.conversation__content {
+  height: 36rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.conversation__data {
+  max-height: 28.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+  overflow: scroll;
+}
+
+.first-message-date {
+  margin-bottom: 1.5rem;
+  color: $bl-sys-color-neutral-mid;
+}
+
+.conversation__messages {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seen {
+  align-self: flex-end;
+  margin-block: 0.25rem;
+  padding-bottom: -2rem;
+  margin-right: 2rem;
+  color: $bl-sys-color-neutral-high;
+}
+
+.typing {
+  align-self: flex-start;
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+  color: $bl-sys-color-neutral-high;
+}
+
+.conversation__input {
+  width: 100%;
+  bottom: 2rem;
+  padding-inline: 1.5rem;
+  padding-block: 2rem;
+}
+
+.message-input {
+  background-color: #fff;
+  border-radius: 2rem;
+  border: 1px solid $bl-sys-color-neutral-high;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1rem;
+  transition: all ease-in-out 100ms;
+
+  input {
+    background: none;
+    border: none;
+    padding-left: 2rem;
+    height: 100%;
+    width: 100%;
+
+    &:focus-within {
+      border: none;
+      outline: none;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-2px);
+    @include drop-shadow();
+  }
+
+  &:focus-within {
+    transform: translateY(-2px);
+    @include drop-shadow();
+    border: 1px solid $bl-sys-color-primary-high-mid;
+    outline: 1px solid $bl-sys-color-primary-high-mid;
+  }
+}

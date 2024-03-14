@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+.message {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  padding-inline: 1.5rem;
+}
+.message:last-child {
+  margin-bottom: 0;
+}
+
+.message-bubble {
+  padding: 0.5rem 1rem;
+  max-width: 18.5rem;
+  border-radius: 1.5rem;
+}
+
+.message--emitted {
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+  transform-origin: bottom right;
+}
+.message--emitted + .message--emitted .message-bubble {
+  border-top-right-radius: 0.25rem;
+}
+.message--emitted:has(+ .message--emitted) {
+  margin-bottom: 2px;
+}
+.message--emitted:has(+ .message--emitted) .message-bubble {
+  border-bottom-right-radius: 0.25rem;
+}
+.message--emitted .message-bubble {
+  background-color: #722880;
+  color: #F7F7F7;
+}
+.message--emitted .message-bubble::-moz-selection {
+  background-color: #D092DC;
+  color: #121212;
+}
+.message--emitted .message-bubble::selection {
+  background-color: #D092DC;
+  color: #121212;
+}
+
+.message--received {
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+  transform-origin: bottom left;
+}
+.message--received + .message--received .message-bubble {
+  border-top-left-radius: 0.25rem;
+}
+.message--received:has(+ .message--received) {
+  margin-bottom: 2px;
+}
+.message--received:has(+ .message--received) .message-bubble {
+  border-bottom-left-radius: 0.25rem;
+}
+.message--received .message-bubble {
+  background-color: #EDEDED;
+  color: #121212;
+}/*# sourceMappingURL=message-in-conversation.css.map */

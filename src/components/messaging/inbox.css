@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+.inbox__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 3rem 1.5rem;
+  min-height: 6rem;
+  background-color: #fff;
+  border-bottom: 1px solid #333333;
+  color: #1F1F1F;
+}
+
+.inbox__title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.inbox__content {
+  max-height: 36rem;
+  overflow: scroll;
+}
+
+p.error-message {
+  margin-block: 1.5rem;
+}/*# sourceMappingURL=inbox.css.map */

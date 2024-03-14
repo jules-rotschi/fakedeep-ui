@@ -1,0 +1,144 @@
+@import 'foundations.scss';
+
+.display-large {
+  @include display-large()
+}
+
+.display-medium {
+  @include display-medium()
+}
+
+.display-small {
+  @include display-small()
+}
+
+.headline-large {
+  @include headline-large()
+}
+
+.headline-medium {
+  @include headline-medium()
+}
+
+.headline-small {
+  @include headline-small()
+}
+
+.title-large {
+  @include title-large()
+}
+
+.title-medium {
+  @include title-medium()
+}
+
+.title-small {
+  @include title-small()
+}
+
+.label-large {
+  @include label-large()
+}
+
+.label-medium {
+  @include label-medium()
+}
+
+.label-small {
+  @include label-small()
+}
+
+.body-large {
+  @include body-large()
+}
+
+.body-medium, p {
+  @include body-medium()
+}
+
+.body-small {
+  @include body-small()
+}
+
+.overline {
+  @include overline()
+}
+
+.caption {
+  @include caption()
+}
+
+.quiet {
+  @include quiet()
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+
+  &::selection {
+    background-color: $bl-sys-color-secondary-high-mid;
+    color: $bl-sys-color-neutral-lowest;
+  }
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+main.wrapper {
+  position: relative;
+  z-index: 1;
+  min-height: calc(100vh - 23.5rem);
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  padding-inline: 1.5rem;
+  padding-block: calc(1rem - 2px);
+  border-radius: 1.5rem;
+  border: 2px solid $bl-sys-color-neutral-high;
+  background: transparent;
+  color: $bl-sys-color-neutral-high;
+  @include label-small;
+  transition: all 100ms;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $bl-sys-color-neutral-high;
+    color: $bl-sys-color-neutral-lowest;
+  }
+}
+
+button.icon-button {
+  padding: 0;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: $bl-sys-color-neutral-higher;
+  transition: all 100ms;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $bl-sys-color-neutral-overlay-10;
+  }
+
+  &:active {
+    background-color: $bl-sys-color-neutral-overlay-20;
+  }
+}
+
+input {
+  @include body-large;
+}

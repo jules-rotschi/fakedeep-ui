@@ -1,0 +1,80 @@
+@import '../../foundations.scss';
+
+.profile-picture-click-handler {
+  width: fit-content;
+}
+
+.inbox-message {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:  18px 1.5rem 18px 1rem;
+  border-bottom: 1px solid $bl-sys-color-neutral-mid;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $bl-sys-color-neutral-lowest;
+  }
+
+  &:active {
+    background-color: $bl-sys-color-neutral-lower;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.inbox-message--new {
+  background-color: $bl-sys-color-info-lowest;
+
+  &:hover {
+    background-color: $bl-sys-color-info-lower;
+  }
+
+  .inbox-message__message .inbox-message__message-content {
+    color: $bl-sys-color-neutral-highest;
+    font-weight: 700;
+  }
+}
+
+.inbox-message__infos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.inbox-message__text {
+  padding-bottom: 0.25rem;
+}
+
+.inbox-message__user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.inbox-message__user-name {
+  margin-bottom: -0.5rem;
+  color: $bl-sys-color-neutral-highest;
+}
+
+.inbox-message__user-active {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 100%;
+  background-color: $bl-sys-color-success-mid;
+  position: relative;
+  top: 4px;
+}
+
+.inbox-message__message {
+  display: flex;
+  gap: 0.5rem;
+  color: $bl-sys-color-neutral-high-mid;
+}
+
+.inbox-message__message-time {
+  color: $bl-sys-color-neutral-mid;
+}

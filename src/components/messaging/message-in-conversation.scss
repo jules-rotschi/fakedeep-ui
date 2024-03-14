@@ -1,0 +1,74 @@
+@import '../../foundations.scss';
+
+.message {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  padding-inline: 1.5rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.message-bubble {
+  padding: 0.5rem 1rem;
+  max-width: 18.5rem;
+  border-radius: 1.5rem;
+}
+
+.message--emitted {
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+  transform-origin: bottom right;
+
+  & + .message--emitted {
+    .message-bubble {
+      border-top-right-radius: 0.25rem;
+    }
+  }
+
+  &:has(+ .message--emitted) {
+    margin-bottom: 2px;
+
+    .message-bubble {
+      border-bottom-right-radius: 0.25rem;
+    }
+  }
+
+  .message-bubble {
+    background-color: $bl-sys-color-primary-high-mid;
+    color: $bl-sys-color-neutral-lowest;
+
+    &::selection {
+      background-color: $bl-sys-color-primary-low-mid;
+      color: $bl-sys-color-neutral-highest;
+    }
+  }
+}
+
+.message--received {
+  justify-content: flex-start;
+  margin-bottom: 1.5rem;
+  transform-origin: bottom left;
+
+  & + .message--received {
+    .message-bubble {
+      border-top-left-radius: 0.25rem;
+    }
+  }
+
+  &:has(+ .message--received) {
+    margin-bottom: 2px;
+
+    .message-bubble {
+      border-bottom-left-radius: 0.25rem;
+    }
+  }
+
+  .message-bubble {
+    background-color: $bl-sys-color-neutral-lower;
+    color: $bl-sys-color-neutral-highest;
+  }
+}
