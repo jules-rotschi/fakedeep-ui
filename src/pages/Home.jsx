@@ -12,19 +12,19 @@ function Comment({ author, age, content }) {
 export default function Home() {
   const comments = [
     {
-      author: 'Marc',
+      author: 'Karine',
       age: 27,
-      content: 'Une voyante qui sait écouter et lire les autres.'
+      content: 'Claire sait parfaitement écouter, cette expérience était exceptionnelle.'
     },
     {
-      author: 'Fabienne',
+      author: 'Loreleï',
       age: 41,
-      content: 'Claire trouve toujours les mots justes.'
+      content: 'Jamais je n’ai eu à ce point le sentiment d’être comprise, merci !'
     },
     {
-      author: 'Jacques',
+      author: 'Houria',
       age: 68,
-      content: 'Elle m’a sauvé la vie.'
+      content: 'Je crois que ma séance avec Claire m’a sauvée.'
     },
   ]
 
@@ -32,7 +32,7 @@ export default function Home() {
     <>
       <div className="banner"></div>
       <article className="comment-card">
-        <h1 className="comment-card__heading headline headline-medium">Ils ont consulté Claire...</h1>
+        <h1 className="comment-card__heading headline headline-medium">Dévoilez-vous à moi...</h1>
         <div className="comment-card__comments">
           {comments.map((comment, index) =>
             <Comment author={comment.author} age={comment.age} content={comment.content} key={index} />

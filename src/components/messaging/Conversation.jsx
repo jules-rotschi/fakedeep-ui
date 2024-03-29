@@ -11,7 +11,7 @@ export default function Conversation({ user, closeConversation, sendMessage, sen
   const [newMessageContent, setNewMessageContent] = useState('');
 
   function send(content, user) {
-    if (user.username == 'lorelei' && user.messages.length == 1) {
+    if (user.username == 'ysee' && user.messages.length == 1) {
       sendMessageToLorelei(content);
     } else {
       sendMessage(content, user)

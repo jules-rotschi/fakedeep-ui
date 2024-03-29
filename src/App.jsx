@@ -78,7 +78,7 @@ export default function App({ defaultUsers }) {
     setUsers(USERS);
   }
 
-  const lorelei = users.find((user) => user.username == 'lorelei');
+  const lorelei = users.find((user) => user.username == 'ysee');
 
   const [messagingLorelei, setMessagingLorelei] = useState(0)
 

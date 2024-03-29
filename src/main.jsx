@@ -51,15 +51,15 @@ const defaultUsers = [
     typing: false
   },
   {
-    name: 'Loreleï',
-    username: 'lorelei',
+    name: 'Ysée',
+    username: 'ysee',
     profilePicture: defaultProfilePicture,
     active: true,
     pictures: [
       examplePicture,
       examplePicture
     ],
-    about: 'Je m’appelle Loreleï.',
+    about: 'J’ai découvert la voyance il y a quelques temps et ça m’a beaucoup intriguée… Les arcanes de ce monde m’ont aidée à comprendre qui j’étais. Je suis depuis toujours une personne spirituelle, je cherche à comprendre la part de sacré de l’existence. Aux fêtes bondées de monde je préfère les conversations profondes sous un ciel étoilé. C’est au milieu de ma quête de spiritualité que j’ai découvert votre site.',
     messages: [
       {
         type: 'received',

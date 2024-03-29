@@ -18,35 +18,6 @@ export default function Profile({ defaultUsers }) {
     )
   }
 
-  // const [previousPicture, setPreviousPicture] = useState(user.pictures.length - 1);
-  // const [nextPicture, setNextPicture] = useState(1);
-
-  // function previous() {
-  //   if (previousPicture == 0) {
-  //     setPreviousPicture(user.pictures.length - 1)
-  //   } else {
-  //     setPreviousPicture(previousPicture - 1);
-  //   }
-  //   if (nextPicture == 0) {
-  //     setPreviousPicture(user.pictures.length - 1)
-  //   } else {
-  //     setPreviousPicture(nextPicture - 1);
-  //   }
-  // }
-
-  // function next() {
-  //   if (previousPicture == user.pictures.length - 1) {
-  //     setPreviousPicture(0)
-  //   } else {
-  //     setPreviousPicture(previousPicture + 1);
-  //   }
-  //   if (nextPicture == user.pictures.length - 1) {
-  //     setNextPicture(0)
-  //   } else {
-  //     setNextPicture(nextPicture + 1)
-  //   }
-  // }
-
   const [currentCarouselPicture, setCurrentCarouselPicture] = useState(0);
 
   function previous() {

@@ -26,7 +26,7 @@
   gap: 5rem;
 }
 .account-content article {
-  width: 31rem;
+  width: 33rem;
 }
 
 .carousel {
@@ -37,7 +37,7 @@
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
 }
 .carousel img {
-  width: 31rem;
+  width: 33rem;
   transition: transform ease-in-out 300ms;
 }
 .carousel .icon-button {
