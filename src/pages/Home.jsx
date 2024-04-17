@@ -1,4 +1,5 @@
 import './home.css'
+import banner from '/src/assets/claire-home-picture.jpg';
 
 function Comment({ author, age, content }) {
   return(
@@ -30,7 +31,9 @@ export default function Home() {
 
   return(
     <>
-      <div className="banner"></div>
+      <div className="banner">
+        <img src={banner} alt="Photo de Claire" />
+      </div>
       <article className="comment-card">
         <h1 className="comment-card__heading headline headline-medium">Dévoilez-vous à moi...</h1>
         <div className="comment-card__comments">

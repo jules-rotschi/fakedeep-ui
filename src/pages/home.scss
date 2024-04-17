@@ -1,9 +1,14 @@
 @import '../foundations.scss';
 
 .banner {
-  min-height: 25rem;
+  position: relative;
   width: 100vw;
-  background-color: gray;
+  aspect-ratio: 4.8;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
 }
 
 .comment-card {

@@ -7,8 +7,16 @@ import Home from './pages/Home'
 import Profile from './pages/Profile'
 import Page404 from './pages/Page404'
 
-import defaultProfilePicture from '/src/assets/default-profile-picture.jpg'
-import examplePicture from '/src/assets/example-picture.jpg'
+import defaultProfilePicture from '/src/assets/default-profile-picture.jpg';
+import examplePicture from '/src/assets/example-picture.jpg';
+
+import julienProfilPicture from '/src/assets/julien-profile-picture.jpg';
+import yseeProfilePicture from '/src/assets/ysee-profile-picture.jpg';
+import yseePicture1 from '/src/assets/ysee-picture-1.jpg';
+import yseePicture2 from '/src/assets/ysee-picture-2.jpg';
+import yseePicture3 from '/src/assets/ysee-picture-3.jpg';
+import karineProfilePicture from '/src/assets/karine-profile-picture.jpg';
+import jpProfilePicture from '/src/assets/jp-profile-picture.jpg';
 
 const defaultUsers = [
   {
@@ -34,11 +42,12 @@ const defaultUsers = [
   {
     name: 'Julien',
     username: 'julien',
-    profilePicture: defaultProfilePicture,
+    profilePicture: julienProfilPicture,
     active: false,
     pictures: [
       examplePicture,
-      examplePicture    ],
+      examplePicture
+    ],
     about: null,
     messages: [
       {
@@ -53,11 +62,12 @@ const defaultUsers = [
   {
     name: 'Ysée',
     username: 'ysee',
-    profilePicture: defaultProfilePicture,
+    profilePicture: yseeProfilePicture,
     active: true,
     pictures: [
-      examplePicture,
-      examplePicture
+      yseePicture1,
+      yseePicture2,
+      yseePicture3
     ],
     about: 'J’ai découvert la voyance il y a quelques temps et ça m’a beaucoup intriguée… Les arcanes de ce monde m’ont aidée à comprendre qui j’étais. Je suis depuis toujours une personne spirituelle, je cherche à comprendre la part de sacré de l’existence. Aux fêtes bondées de monde je préfère les conversations profondes sous un ciel étoilé. C’est au milieu de ma quête de spiritualité que j’ai découvert votre site.',
     messages: [
@@ -73,7 +83,7 @@ const defaultUsers = [
   {
     name: 'Karine',
     username: 'karine',
-    profilePicture: defaultProfilePicture,
+    profilePicture: karineProfilePicture,
     active: false,
     pictures: [
       examplePicture,
@@ -137,7 +147,7 @@ const defaultUsers = [
   {
     name: 'JP',
     username: 'jean-paul',
-    profilePicture: defaultProfilePicture,
+    profilePicture: jpProfilePicture,
     active: false,
     pictures: [
       examplePicture,
